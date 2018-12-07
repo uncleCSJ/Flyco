@@ -1,0 +1,30 @@
+/*轮播图开始*/
+
+.nav{
+    width: 1240px;
+    height:460px;
+}
+/*轮播图下边的商品列表*/
+.home_show{
+    width: 1245px;
+    height: 170px;
+    border-bottom: 1px solid #dfdfdf;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.home_show_list{
+    float: left;
+    position: relative;
+    border: 1px solid #dfdfdf;
+    border-collapse: collapse;
+    border-left: none;
+}
+.list01{
+    border-left: 1px solid #dfdfdf;
+}
+.home_show_list a{
+    width: 412px;
+    height: 170px;
+   display: block;
+}
