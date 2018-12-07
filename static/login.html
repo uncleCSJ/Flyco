@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../static/css/base.css">
     <link rel="stylesheet" href="../static/css/flyco_register.css">
     <link rel="stylesheet" href="../static/css/flyco_login.css">
+    <link rel="stylesheet" href="../static/css/iconfont.css">
+    
 </head>
 
 <body>
@@ -71,12 +73,19 @@
             <h1>欢迎登录飞科商城</h1>
             <button class="btn01">注册用户登录</button><button class="btn02">手机动态验证码登录</button>
             <form>
-            	<input type="text" placeholder="邮箱/手机" class="phone"/></br>
-            	<input type="text" placeholder="密码" class="pass"/></br>
+                <ul>
+                    <li class="contact"><i class="iconfont icon-youxiang"></i><input type="text" class="txt01" placeholder="邮箱/手机" maxlength="64"></li>
+                    <li class="pass"><i class="iconfont icon-mima"></i><input type="text" class="txt02" placeholder="密码" maxlength="64"></li>
+                </ul>
+            
             	<button>登录</button></br>
             	<div class="login_bottom"><input type="checkbox" class="check"/>&nbsp;<span>两周内免登录&nbsp;|&nbsp;</span><a href="#">忘记密码?</a>&nbsp;&nbsp;&nbsp;&nbsp;<span>还没有账号?&nbsp;</span><a href="#">立即注册</a></div>
             </form>
-            <i>—————&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其他方式登录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;—————</i>
+            <i>—————&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其他方式登录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;—————</i><br/>
+            <ul class="log_bottom">
+                <li><a href="#" class="iconfont icon-wechat"></a></li>
+                <li><a href="#" class="iconfont icon-qq"></a></li>
+            </ul>
         </div>
     </div>
     
