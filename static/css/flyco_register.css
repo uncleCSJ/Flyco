@@ -73,7 +73,7 @@ color: #a5a5a5;
     width:72px;
     margin-left:24px;
     background: #0c82d9;
-    /* -webkit-border-radius:5px; */
+    -webkit-border-radius:5px;
 }
 .logo-head .in_b{
     color: #fff;
@@ -296,18 +296,135 @@ height: 90px;
 .footer{
     margin-top: 100px;
     background-color: #fafafa;
+    /* background-color: goldenrod; */
     height: 540px;
 }
 .inner-footer{
     height: 143px;
     border-bottom: 2px solid #ecedef;
 }
+
+.inner-footer div.fl{
+    margin-top: 50px;
+    padding-left: 38px;
+    padding-right: 35px;
+}
+
+.fl{
+    float: left;
+    display: inline; 
+}
+.ml20{
+    margin-left: 20px;
+    font-family: "Microsoft Yahei", sans-serif;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
 .link{
     border-bottom: 2px solid #ecedef;
     height: 183px;
-}
-.copyRight{
-    background: #0c82d9;
-    height: 213px;
+    position: relative;
 }
 
+.link-left dl{
+    width: 140px;
+    padding: 32px 0 41px;
+    margin-left: 50px;
+}
+.link-left dt{
+    color: #2f2f2f;
+}
+.link-left dd a{
+    color: #9fa0a0;
+}
+.link-left dd a:hover{
+    text-decoration: underline
+}
+.fm{
+    font-family: "Microsoft Yahei", sans-serif;
+}
+.f14{
+    font-size: 14px
+}
+.mt5{
+    margin-top: 5px;
+}
+.mb8{
+    margin-bottom: 7px;
+}
+.fb{
+    font-weight:bold; 
+}
+.f16{
+    font-size: 16px;
+}
+.mb12{
+    margin-bottom: 12px;
+}
+
+.link-center{
+    padding: 30px 0 41px;
+}
+.pa{
+    position: absolute
+}
+.png-bg{
+    display: block;
+    padding-left:30px;
+} 
+
+.link-center .P{
+    font-family:sans-serif;
+    font-weight: 550;
+    color: #9fa0a0;
+    font-size:15px;
+    margin-top:5px
+}
+.service{
+    right: 70px;
+    margin-top: -43px;
+}
+
+.copyRight{
+    background: #fafafa;
+    height: 213px;
+}
+.minilogo{
+    display: block;
+    width: 145px;
+    height: 17px;
+    margin-top: 36px;
+    /* margin-right: 30px; */
+}
+.mt25{
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+.wori{
+    margin-top: -10px;
+}
+/* .rightImg{
+    font:12px/150% SimSun,"Microsoft Yahei",Arial,sans-serif;
+
+    font-size: 35px;
+    line-height: 35px;
+    color: #898989;
+} */
+/* .rightImg span {
+    vertical-align: top;
+    font: 100% SimSun,"Microsoft Yahei",Arial,sans-serif;
+} */
+
+.QQ-service{
+    position: fixed;
+    right:0px; bottom:153px;
+    z-index:1002;
+}
+.online{
+    position:fixed; 
+    right:0px; 
+    bottom:96px; 
+    z-index:1002;
+}
